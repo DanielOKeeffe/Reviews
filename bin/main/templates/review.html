@@ -4,11 +4,11 @@
 	<title>A Review</title>
 </head>
 <body>
-	<h1>A Single Review</h1>
 
 	<div th:each="review: ${reviews}">
-		<p th:text="${review.title}"></p>
-		<p th:text="${review.category}"></p>
+		<h1 th:text="${review.title}"></h1>
+		<img th:src="${review.url}"></img>
+		<h2 th:text="${review.category}"></h2>
 		<p th:text="${review.content}"></p>
 		<a href="http://localhost:8080/show-reviews">Back to home</a>
 	</div>
