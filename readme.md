@@ -1,0 +1,3 @@
+##Reviews Project
+
+The reviews project is a webpage that houses bad movie reviews. The main page lists the titles of the movies as links to the individual review pages. Each individual review page displays the movie's title, an image of the movie poster, a category for the movie, and a review of the movie. At the bottom of each review page is a link to go back to the list of movie reviews by title.
